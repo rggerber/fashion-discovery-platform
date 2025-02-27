@@ -20,6 +20,9 @@ model FashionItem {
   category  String
   imageUrl  String
   createdAt DateTime @default(now())
+
+@@index([brand])
+@@index([category])
 }
 
 model User {
