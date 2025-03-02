@@ -12,7 +12,10 @@ dist/
 dist-ssr/
 
 .env
+.env.docker
 *.local
+docker-compose.yml
+backup.sql
 
 # Editor directories and files
 .vscode/*
